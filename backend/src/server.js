@@ -30,6 +30,7 @@ app.use(mongoSanitize()); // Prevent NoSQL injection
 // CORS Configuration
 app.use(cors({
   origin: [
+    'https://braj-path.vercel.app',
     'http://localhost:3001',
     'http://localhost:3000',
     'https://braj-path.vercel.app'
